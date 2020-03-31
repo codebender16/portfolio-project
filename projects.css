@@ -1,0 +1,37 @@
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .card {
+    width: 320px;
+    height: 274px;
+  }
+
+
+  .card h2 {
+    position: relative;
+    top: 80%;
+    font-size: 2em;
+    text-align: center;
+    
+  }
+
+
+  .card-container .card:nth-child(1) {
+    background-color: teal;
+
+  }
+
+  .card-container .card:nth-child(2) {
+    background-color: cornflowerblue;
+
+  }
+
+  .card-container .card:nth-child(3) {
+    background-color: crimson;
+
+  }
