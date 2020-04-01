@@ -1,5 +1,13 @@
 
+.linkedin {
+  width: 2em;
+  height: 2em;
+}
 
+.instagram {
+  width: 2em;
+  height: 2em;
+}
 
 
 .sun-icon {
@@ -9,8 +17,8 @@
 }
 
 .dove-icon {
-  width: 8em;
-  height: 8em;
+  width: 12em;
+  height: 12em;
 }
 
 .animated-cloud {

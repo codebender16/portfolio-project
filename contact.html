@@ -1,42 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="contact-card">
-      <h3>Name</h3>
-      <p>services</p>
-      <p>number</p>
-      <p>email</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="links">
+        <div class="link hvr-grow">
+          <a href="">Story</a>
+        </div>
+        <div class="link hvr-grow">
+          <a href="./projects.html">Projects</a>
+        </div>
+        <div class="link hvr-grow">
+          <a href="">Blogs</a>
+        </div>
+        <div class="link hvr-grow">
+          <a href="./contact.html">Contact</a>
+        </div>
+        <div class="link">
+          <a href="./index.html">
+            <img src="./sun 1.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-background">
+
+      <div class="contact-container">
+          <img class='ct-dov-pos dove-icon' src="./dove.svg" alt="">
+        <!-- <div class="contact-card">
+          <div class='contact-card-inner'>
+            <div class='contact-card-front'>
+
+            </div>
+
+            <div class='contact-card-back'>
+              <h3>Kuan</h3>
+              <p>Services</p>
+              <p>XXXX-XXX-XXX</p>
+              <p>xxxxxxxx@gmail.com</p>
+            </div>
+
+        </div>
+
+      </div> -->
+
+
+        <div class='form-background'>
+          <form class='form-container' action="">
+            
+            <h1>Have a question? Write me a letter ~</h1>
+            <label for="name"> Your Name...
+              <input name='name' id='name' type="text" placeholder="eg: Ed" required>
+            </label>
+            <label for="contact" placeholder="">Best number to get in touch...
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+            </label>
+            <label for="message">Your message...
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Write me something..."></textarea>
+            </label>
+            <label for="post">
+            <button>Post</button>
+            </label>
+            
+          </form>
+
+        </div>
     </div>
+  </div>
+  </body>
 
-    <div class="form-container">
-      <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button></button>
-      </form>
+  <footer>
+    <div class="footer-container">
+
+        <div class='footer-links'>
+          <p>Follow me on social media:</p>
+        <div>
+          <div class='footer-link'>
+            <a href=""><img class="linkedin" src="./linkedin.svg" alt=""></a>
+          </div>
+          <div class='footer-link'>
+            <a href=""><img class="instagram" src="./instagram (1).svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="copyright">
+        <p>Copyright <span>&copy</span> 2020</p>
+      </div>   -->
+
     </div>
-
-  </div>
-  
-</body>
-
-<footer>
-  <div class="container">
-    <div class="copyright"><span></span></div>
-
-    <div class="footer-menu"></div>
-
-  </div>
-  
-</footer>
-
+  </footer>
 </html>

@@ -1,37 +1,112 @@
 
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+/* 
+.lightning {
+  animation: lightning 1s linear 0.5s;
+} */
+
+.project-sum-box {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 320px;
+}
 
 
-  .card {
-    width: 320px;
-    height: 274px;
-  }
+.project-sum-box h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 5em;
+  color: #FFFFFF;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.project-sum-box p {
+  width: 80%;
+  font-size: 2em;
+  line-height: 1.5;
+  border-bottom: 2px dotted cornflowerblue;
+  border-top: 2px solid cornflowerblue;
+}
+
+.background-overlay {
+  background-image: url(./background.svg);
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-color: cornflowerblue;
+  opacity: 0.5;
+}
 
 
-  .card h2 {
-    position: relative;
-    top: 80%;
-    font-size: 2em;
-    text-align: center;
-    
-  }
+.project-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+}
 
 
-  .card-container .card:nth-child(1) {
-    background-color: teal;
+.project-card {
+  width: 320px;
+  height: 274px;
+  padding: 16px 0;
+  /* border: 1px solid black; */
+  margin: 16px 16px;
+}
 
-  }
 
-  .card-container .card:nth-child(2) {
-    background-color: cornflowerblue;
+.project-card h1, h3 {
+  position: relative;
+  top: 0;
+  font-size: 2em;
+  text-align: center;
+}
 
-  }
+.project-card h3 {
+  top: 80px;
+}
 
-  .card-container .card:nth-child(3) {
-    background-color: crimson;
+.project-card h2 {
+  position: relative;
+  top: 70px;
+  font-size: 3em;
+  text-align: center;
+}
 
-  }
+.project-tools {
+  position: relative;
+  left: 120px;
+  top: 90px;
+  margin: 8px;
+  font-size: 2em;
+}
+
+
+.project-card-container .project-card:nth-child(1) {
+  background-color: teal;
+
+}
+
+.project-card-container .project-card:nth-child(2) {
+  background-color: cornflowerblue;
+
+}
+
+.project-card-container .project-card:nth-child(3) {
+  background-color: crimson;
+
+}
+
+.project-card-container .project-card:nth-child(4) {
+  background-color: slateblue;
+
+}
+
+.project-card-container .project-card:nth-child(5) {
+  background-color: plum;
+
+}
