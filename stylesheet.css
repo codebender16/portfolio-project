@@ -14,12 +14,20 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-size: 8px;
-
 }
 
 /* source code from http://cssanimation.io/ */
-.lightning { animation-name: lightning }
-  @keyframes lightning {
-  from, 50%, to { opacity: 1; }
-  25%, 75% { opacity: 0 }
+.lightning {
+  animation-name: lightning;
+}
+@keyframes lightning {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }

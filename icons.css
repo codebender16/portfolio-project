@@ -1,4 +1,3 @@
-
 .linkedin {
   width: 2em;
   height: 2em;
@@ -8,7 +7,6 @@
   width: 2em;
   height: 2em;
 }
-
 
 .sun-icon {
   display: flex;
@@ -22,7 +20,6 @@
 }
 
 .animated-cloud {
-  
 }
 
 .service-icons {
@@ -60,11 +57,12 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 
 /* pulse grow */
 

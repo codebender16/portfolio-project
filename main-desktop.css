@@ -1,6 +1,11 @@
 @media only screen and (min-width: 600px) {
   .container {
-    background: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%);;
+    background: linear-gradient(
+      to bottom,
+      #94c5f8 1%,
+      #a6e6ff 70%,
+      #b1b5ea 100%
+    );
     width: 100%;
     height: 100%;
     /* animation: lightning 1s linear 0.5s; */
@@ -12,43 +17,39 @@
 
   /* FOR ALL FONT-RELATED */
 
+  /* NAVIGATION BAR */
 
-
-
-/* NAVIGATION BAR */
-
-nav {
+  nav {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 8em;xw
-    display: flex;
+    height: 8em;
+    xwdisplay: flex;
     justify-content: flex-end;
     background-color: cornflowerblue;
     transition: top 0.3s;
     /* border: 1px solid black; */
   }
 
-nav a {
+  nav a {
     color: white;
     font-weight: bold;
     font-size: 3em;
   }
 
-.links {
+  .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
-.link {
-  padding: 0 5em;
-}
+  .link {
+    padding: 0 5em;
+  }
 
-/* source code from hover.css - https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+  /* source code from hover.css - https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
-
-/* MOVING CLOUDS */
+  /* MOVING CLOUDS */
 
   .greeting {
     display: flex;
@@ -57,13 +58,12 @@ nav a {
   }
 
   .cloud-container {
-
   }
 
   .greeting div {
     padding: 5em;
   }
-  
+
   .greeting div:nth-child(1) {
     display: flex;
     justify-content: flex-start;
@@ -81,7 +81,7 @@ nav a {
     position: relative;
     top: 30%;
     right: 16px;
-    content: 'Herro...';
+    content: "Herro...";
     font-size: 5em;
     color: white;
     /* insert speech bubble */
@@ -111,9 +111,6 @@ nav a {
     /* insert animation */
   }
 
-  
-
-
   /* .page-break-container {
     display: flex;
     align-items: center;
@@ -132,10 +129,6 @@ nav a {
     padding: 0 16px;
     background-color: white;
   } */
-
-
-
-
 
   .services-container {
     display: flex;
@@ -160,9 +153,9 @@ nav a {
   }
 
   .service-header::before {
-    content: '';
+    content: "";
     position: absolute;
-    background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%);
+    background: linear-gradient(to bottom, #90dffe 0%, #38a3d1 100%);
     width: 3px;
     height: 90%;
     top: 55%;
@@ -170,21 +163,19 @@ nav a {
     left: 50%;
     transform: rotate(90deg);
   }
-  
 
   .service h2 {
     font-size: 2.5em;
     text-transform: uppercase;
     text-align: center;
     /* text-decoration: underline overline wavy whitesmoke; */
-    }
+  }
 
   .service p {
     font-size: 1.5em;
     margin: 8px;
     text-align: center;
   }
-
 
   /* .blockquote {
     float: right;
@@ -223,7 +214,7 @@ nav a {
     font-size: 0.875em;
     color: #e74c3c;
   } */
-  
+
   .footer-container {
     width: 100%;
     height: 20vh;
@@ -264,7 +255,4 @@ nav a {
     text-decoration: none;
     font-size: 2em;
   }
-
 }
-
-

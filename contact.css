@@ -56,23 +56,38 @@
 }
 
 .form-container input {
+  background-color: transparent;
   margin-top: 8px;
   width: 85%;
-  height: 32px;
-  border: 1px;
-  border-radius: 10px;
+  height: 5vh;
+  border: none;
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.form-container input:focus {
+  outline: none;
 }
 
 .form-container textarea {
   margin-top: 8px;
   width: 85%;
-  border-radius: 10px;
+  height: 10vh;
+  resize: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 1em;
 }
 
 .form-container button {
   width: 50%;
   color: white;
   text-align: center;
+  margin: 16px;
   padding-top: 8px;
   padding-bottom: 10px;
   font-size: 1em;
