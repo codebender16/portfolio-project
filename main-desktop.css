@@ -24,7 +24,7 @@
     top: 0;
     width: 100%;
     height: 8em;
-    xwdisplay: flex;
+    display: flex;
     justify-content: flex-end;
     background-color: cornflowerblue;
     transition: top 0.3s;

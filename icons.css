@@ -44,6 +44,11 @@
   max-height: 128px;
 }
 
+.project-icons {
+  width: 5em;
+  height: 5em;
+}
+
 /* source code from hover.css - https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
 .hvr-grow {
