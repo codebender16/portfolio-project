@@ -78,9 +78,74 @@ By applying these principles, the website becomes more fluid for visitors to int
 
 ### Branches
 
+Three branches of the website have been generated in Github. See below:
 
+- 'master' branch with the base version
+- 'purple' branch with a purple colour scheme
+- 'no-cat-gifs' branch with the gifs removed
+
+These versions can be viewed by typing 'git checkout {branch-name}' in the terminal. For example to view the 'dark' branch, type:
+
+`git checkout purple`
 
 ### Subresource Integrity
+
+Subresource integrity is utilised to ensures that the files delivered to web applications do not contain any unexpected content such as malicious code from Javascript or other languages injected by third parties.
+
+A hash is created using `sha384` and applied in the link tag as the value of the integrity attribute. This protects the stylesheet.css will only load if it is identical to its state when the `sha384` hash was created. 
+
+**NOTE: If any changes have been made, the stylesheet will not be loaded and the HTML page will be displayed with no CSS styling.**
+
+
+# Sitemap
+
+The sitemap below shows the relationship between homepage and linked pages.
+
+![Sitemap](assets/Sitemap.jpg)
+
+# Tech Stack
+
+- HTML
+- CSS
+- Trello (workflow manager)
+- Miro (sitemap)
+- Visual Code (text editor)
+- Netlify (web-hosting and deployment site)
+
+# Wireframe and Style Guide
+
+Homepage
+
+![Homepage](/wireframe/Main.jpg)
+
+
+
+Navigation Bar / Hamburger Menu - expanded 
+
+![Hamburger-Menu](/wireframe/Menu_expand.jpg)
+
+
+
+Projects
+
+![Projects](/wireframe/Projects.jpg)
+
+
+
+Blogs
+
+![Blogs](/wireframe/Blogs.jpg)
+
+
+Desktop Homepage
+
+![Desktop](/wireframe/Frame&#32;1.jpg)
+
+
+
+Style Guide
+
+![Style-Guide](/wireframe/Style&#32;Guide.jpg)
 
 
 
