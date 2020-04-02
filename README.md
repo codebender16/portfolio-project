@@ -81,12 +81,14 @@ By applying these principles, the website becomes more fluid for visitors to int
 Three branches of the website have been generated in Github. See below:
 
 - 'master' branch with the base version
-- 'purple' branch with a purple colour scheme
-- 'no-cat-gifs' branch with the gifs removed
+- 'purple' branch with a purple font
+- 'font-size' branch with the font-size 2em
 
 These versions can be viewed by typing 'git checkout {branch-name}' in the terminal. For example to view the 'dark' branch, type:
 
 `git checkout purple`
+
+The branch versions are not used because they are not compatible with my original design. It was done for experimental purposes.
 
 ### Subresource Integrity
 
