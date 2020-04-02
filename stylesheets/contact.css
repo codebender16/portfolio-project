@@ -15,6 +15,24 @@
   z-index: 10;
 }
 
+.mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.mobile h1 {
+  font-size: 2em;
+}
+
+.mobile a {
+  font-size: 3em;
+  padding: 8px 0;
+  letter-spacing: 6px;
+}
+
 .form-background {
   position: relative;
   width: 85%;

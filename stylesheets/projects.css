@@ -1,40 +1,3 @@
-.project-sum-box {
-  position: relative;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 320px;
-}
-
-.project-sum-box h1 {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  font-size: 5em;
-  color: #ffffff;
-  letter-spacing: 8px;
-  text-shadow: 3px 5px 2px #474747;
-}
-
-.project-sum-box p {
-  width: 80%;
-  font-size: 2em;
-  line-height: 1.5;
-  border-bottom: 2px dotted cornflowerblue;
-  border-top: 2px solid cornflowerblue;
-}
-
-.background-overlay {
-  background-image: url(./background.svg);
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  background-color: cornflowerblue;
-  opacity: 0.5;
-}
-
 .project-card-container {
   display: flex;
   flex-wrap: wrap;
@@ -50,9 +13,11 @@
 
 .project-card-inner {
   position: relative;
-  transition: transform 1s;
+  transition: transform 0.6s;
   width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   transform-style: preserve-3d;
 }
 
