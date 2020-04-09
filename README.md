@@ -150,6 +150,9 @@ Style Guide
 ![Style-Guide](/wireframe/Style&#32;Guide.jpg)
 
 
+To do
+<link integrity="sha384-gc8fYDUd/+UKjcjgxWVQ73kkSjl69/sgKGfXCKu7XlPjjajrNaZ0TfLpvtE86IPn" rel="stylesheet"
+    href="./stylesheets/stylesheet.css" />
 
 
 
